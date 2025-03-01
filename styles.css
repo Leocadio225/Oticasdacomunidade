@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+    background: blue;
+}
+
+.visão {
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+.bom {
+    text-align: center;
+    position: relative;
+    top: 85px;
+    color: white;
+    font-size: 20px;
+}
+
+.sol {
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 180px;
+    border-radius: 15px;
+
+}
+
+.mensagem {
+    width: 50px;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.instagram {
+    width: 50px;
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+    margin: 20px;
+    cursor: pointer;
+}
